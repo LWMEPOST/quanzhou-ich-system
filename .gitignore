@@ -1,0 +1,30 @@
+# 排除 .trae 目录
+.trae/
+
+# 排除 node_modules
+node_modules/
+
+# 排除 IDE 配置
+.idea/
+.vscode/
+*.iml
+
+# 排除编译输出
+target/
+dist/
+build/
+
+# 排除日志文件
+*.log
+
+# 排除系统文件
+.DS_Store
+Thumbs.db
+
+# 排除上传文件
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# 排除环境变量
+.env
+*.env.local
